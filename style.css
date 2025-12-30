@@ -110,14 +110,14 @@ p { color: #cbd5e1; line-height: 1.6; }
 }
 .contact-card {
     background: var(--bg-card);
-    padding: 30px 20px; 
+    padding: 30px 5px;  /* Reduced side padding to 5px */
     border-radius: 15px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: 0.4s;
     
-    /* FIX: Flexible width */
-    flex: 1; min-width: 280px; max-width: 350px;
+    /* WIDER CARDS */
+    flex: 1; min-width: 320px; max-width: 400px;
 }
 .contact-card:hover {
     border-color: var(--main-color); transform: translateY(-10px);
@@ -126,10 +126,13 @@ p { color: #cbd5e1; line-height: 1.6; }
 .contact-card i { font-size: 2rem; color: var(--main-color); margin-bottom: 10px; }
 .contact-card h3 { font-size: 1.2rem; margin-bottom: 5px; }
 
-/* FIX: Break long words so they don't overflow */
+/* FIX: Smaller font and Forced Line Break */
 .contact-card p {
-    color: #cbd5e1; font-size: 0.95rem;
-    word-break: break-word; overflow-wrap: break-word;
+    color: #cbd5e1; 
+    font-size: 0.85rem;  /* Slightly smaller font to fit */
+    overflow-wrap: anywhere; /* Forces break if it hits the wall */
+    word-break: break-word;
+    padding: 0 5px;
 }
 
 footer { text-align: center; padding: 20px; background: #0b1120; color: #64748b; }
