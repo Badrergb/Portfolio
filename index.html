@@ -3,171 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badre Narayanan RG | Data Scientist & Developer</title>
+    <title>Badre Narayanan RG | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="background-animation"></div>
 
     <nav>
         <div class="logo">Badre.<span class="dot">RG</span></div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#education">Timeline</a></li>
+            <li><a href="#projects">Projects</a></li>
         </ul>
-        <a href="#contact" class="btn-nav">Hire Me</a>
+        <a href="#contact" class="btn-hire">Hire Me</a>
     </nav>
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <span class="greeting">Welcome to my portfolio</span>
-            <h1>I Build <span class="gradient-text">Intelligent Systems</span></h1>
-            <p>Integrated MSc Data Science Student specializing in <strong>Full-Stack Development</strong>, <strong>Automation</strong>, and <strong>Sports Analytics</strong>.</p>
+            <h3>Hello, It's Me</h3>
+            <h1>Badre Narayanan RG</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Integrated MSc Data Science Student & Developer building the future with Automation, AI, and Sports Analytics.</p>
             
-            <div class="hero-btns">
-                <a href="#projects" class="btn primary">View My Work <i class="fas fa-arrow-right"></i></a>
-                <a href="resume.pdf" download class="btn secondary">Download Resume <i class="fas fa-download"></i></a>
-            </div>
-            
-            <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>
                 <a href="mailto:narayananbadre@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">View Work</a>
+                <a href="resume.pdf" download class="btn secondary pulse-btn">Download Resume <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="container about-container">
+            <div class="about-text">
+                <p>I am a Data Science enthusiast currently pursuing an <strong>Integrated MSc at Amrita Vishwa Vidyapeetham</strong>. I bridge the gap between complex data and real-world applications using Python, Java, and Machine Learning.</p>
+                
+                <div class="info-grid">
+                    <div class="info-box float-anim">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="info-item">
+                            <h4>Integrated MSc Data Science</h4>
+                            <p>Amrita Vishwa Vidyapeetham (2022 - 2027)</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Higher Secondary (CBSE)</h4>
+                            <p>Chelammal Vidhyaashram (2022)</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box float-anim" style="animation-delay: 0.2s;">
+                        <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                        <ul class="cert-list">
+                            <li>Data Analysis with Python (IBM)</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="skills">
-        <h2 class="section-title">Technical <span>Arsenal</span></h2>
+        <h2 class="section-title">My <span>Skills</span></h2>
         <div class="skills-grid">
-            <div class="skill-card">
-                <i class="fab fa-python" style="color: #FFD43B;"></i>
-                <h3>Python</h3>
-                <p>Pandas, NumPy, Scikit-Learn</p>
+            <div class="skill-card float-anim">
+                <i class="fab fa-python"></i>
+                <h3>Python & AI</h3>
+                <p>Pandas, Numpy, Scikit-Learn</p>
             </div>
-            <div class="skill-card">
-                <i class="fab fa-java" style="color: #f89820;"></i>
-                <h3>Java</h3>
-                <p>Core Java, Swing, JSP</p>
+            <div class="skill-card float-anim" style="animation-delay: 0.2s;">
+                <i class="fab fa-java"></i>
+                <h3>Development</h3>
+                <p>Java, SQL, HTML/CSS</p>
             </div>
-            <div class="skill-card">
-                <i class="fas fa-database" style="color: #00758f;"></i>
-                <h3>SQL</h3>
-                <p>PostgreSQL, MySQL</p>
+            <div class="skill-card float-anim" style="animation-delay: 0.4s;">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Viz</h3>
+                <p>Matplotlib, Seaborn, Tableau</p>
             </div>
-            <div class="skill-card">
-                <i class="fas fa-brain" style="color: #ff6b6b;"></i>
-                <h3>AI / ML</h3>
-                <p>Reinforcement Learning, Graph Theory</p>
+            <div class="skill-card float-anim" style="animation-delay: 0.6s;">
+                <i class="fas fa-database"></i>
+                <h3>Database</h3>
+                <p>MySQL, PostgreSQL</p>
             </div>
         </div>
     </section>
 
     <section id="projects">
-        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <h2 class="section-title">My <span>Projects</span></h2>
         <div class="projects-grid">
             
             <div class="project-card">
-                <div class="card-header">
+                <div class="project-info">
                     <span class="badge academic">College Project</span>
-                    <i class="fas fa-leaf project-icon"></i>
-                </div>
-                <h3>Farmer Management System</h3>
-                <p>A full-stack Java application optimizing crop management and resource sales for agricultural efficiency.</p>
-                <div class="tech-stack">
-                    <i class="fab fa-java" title="Java"></i>
-                    <i class="fas fa-database" title="PostgreSQL"></i>
-                    <i class="fas fa-code" title="NetBeans"></i>
+                    <h3>Farmer Management System</h3>
+                    <p>A full-stack Java application connected to a PostgreSQL database to help farmers manage crops and sell resources efficiently.</p>
+                    <div class="tags">
+                        <span>Java</span><span>PostgreSQL</span><span>NetBeans</span>
+                    </div>
+                    <a href="#" class="view-link">View Code <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="card-header">
-                    <span class="badge research">Research</span>
-                    <i class="fas fa-robot project-icon"></i>
-                </div>
-                <h3>RL Football Agent</h3>
-                <p>AI agent trained using Reinforcement Learning to make optimal tactical decisions in simulated football matches.</p>
-                <div class="tech-stack">
-                    <i class="fab fa-python" title="Python"></i>
-                    <i class="fas fa-brain" title="Machine Learning"></i>
-                    <i class="fas fa-gamepad" title="Simulation"></i>
+                <div class="project-info">
+                    <span class="badge personal">Personal Project</span>
+                    <h3>RL Football Agent</h3>
+                    <p>Built a Reinforcement Learning model to train AI agents to make optimal tactical decisions in a football simulation environment.</p>
+                    <div class="tags">
+                        <span>Reinforcement Learning</span><span>Python</span><span>AI</span>
+                    </div>
+                    <a href="#" class="view-link">View Code <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="card-header">
-                    <span class="badge personal">Personal</span>
-                    <i class="fas fa-project-diagram project-icon"></i>
-                </div>
-                <h3>Pass Network Analysis</h3>
-                <p>Advanced sports analytics tool using Graph Theory to visualize and analyze team passing structures.</p>
-                <div class="tech-stack">
-                    <i class="fab fa-python" title="Python"></i>
-                    <i class="fas fa-chart-network" title="NetworkX"></i>
-                    <i class="fas fa-chart-bar" title="Data Viz"></i>
+                <div class="project-info">
+                    <span class="badge personal">Personal Project</span>
+                    <h3>Football Pass Network Analysis</h3>
+                    <p>Analyzed team performance by visualizing player connections using Graph Theory and NetworkX to understand passing structures.</p>
+                    <div class="tags">
+                        <span>Graph Theory</span><span>Python</span><span>Data Viz</span>
+                    </div>
+                    <a href="#" class="view-link">View Code <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
-        </div>
-    </section>
-
-    <section id="education">
-        <h2 class="section-title">My <span>Journey</span></h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2022 - 2027 (Present)</div>
-                <div class="timeline-content">
-                    <h3>Integrated MSc Data Science</h3>
-                    <p>Amrita Vishwa Vidyapeetham</p>
-                    <p class="timeline-desc">Specializing in Machine Learning and Data Analytics.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2022</div>
-                <div class="timeline-content">
-                    <h3>Higher Secondary (CBSE)</h3>
-                    <p>Chelammal Vidhyaashram</p>
-                    <p class="timeline-desc">Major: Computer Science & Mathematics</p>
-                </div>
-            </div>
-             <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">Certification</div>
-                <div class="timeline-content">
-                    <h3>Data Analysis with Python</h3>
-                    <p>Authorized by IBM</p>
-                </div>
-            </div>
         </div>
     </section>
 
     <section id="contact">
-        <div class="contact-wrapper">
-            <h2>Ready to collaborate?</h2>
-            <p>I am available for internships and freelance projects.</p>
-            <a href="mailto:narayananbadre@gmail.com" class="btn primary big-btn">Get In Touch</a>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2025 Badre Narayanan RG</p>
-                <p>+91 74188 06611 | Coimbatore, India</p>
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>narayananbadre@gmail.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="fas fa-phone"></i>
+                <h3>Phone</h3>
+                <p>+91 74188 06611</p>
+            </div>
+            <div class="contact-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Location</h3>
+                <p>Coimbatore, India</p>
             </div>
         </div>
+        <footer>
+            <p>Designed by Badre Narayanan RG &copy; 2025</p>
+        </footer>
     </section>
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        ScrollReveal({ reset: true, distance: '60px', duration: 1500, delay: 200 });
-        ScrollReveal().reveal('.hero-content h1, .section-title', { origin: 'left' });
-        ScrollReveal().reveal('.project-card, .skill-card', { interval: 200, origin: 'bottom' });
-        ScrollReveal().reveal('.timeline-item', { origin: 'left', interval: 200 });
+        var typed = new Typed('.multiple-text', {
+            strings: ['Data Scientist', 'Java Developer', 'Football Analyst', 'Python Expert'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+
+        ScrollReveal({ reset: true, distance: '80px', duration: 2000, delay: 200 });
+        ScrollReveal().reveal('.hero-content, .section-title', { origin: 'top' });
+        ScrollReveal().reveal('.about-text, .project-card, .contact-card', { origin: 'bottom' });
+        ScrollReveal().reveal('.hero h1, .skill-card', { origin: 'left' });
     </script>
 </body>
 </html>
