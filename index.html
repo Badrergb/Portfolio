@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badre Narayanan RG | Portfolio</title>
+    <title>Badre Narayanan RG | Data Scientist</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <nav>
         <div class="logo">Badre.<span class="dot">RG</span></div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -20,72 +23,154 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h3>Hello, I am</h3>
+            <h3>Hello, It's Me</h3>
             <h1>Badre Narayanan RG</h1>
-            <p>Integrated MSc Data Science Student & Developer</p>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Integrated MSc Data Science Student & Developer passionate about building intelligent systems, automation, and sports analytics.</p>
             <div class="hero-btns">
-                <a href="#contact" class="btn primary">Contact Me</a>
-                <a href="#projects" class="btn secondary">View My Work</a>
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="resume.pdf" download class="btn secondary">Download Resume <i class="fas fa-download"></i></a>
             </div>
         </div>
     </section>
 
     <section id="about">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title">About <span>Me</span></h2>
         <div class="container about-container">
             <div class="about-text">
-                <p>I am a Data Science enthusiast currently pursuing an <strong>Integrated MSc at Amrita Vishwa Vidyapeetham</strong>. My objective is to associate with an organization where I can utilize my programming skills.</p>
-                <div class="education-box">
-                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
-                    <div class="edu-item">
-                        <h4>Integrated MSc Data Science</h4>
-                        <p>Amrita Vishwa Vidyapeetham (2022 - 2027)</p>
+                <p>I am a Data Science enthusiast currently pursuing an <strong>Integrated MSc at Amrita Vishwa Vidyapeetham</strong>. I specialize in Python, Java, and Machine Learning, with a unique focus on applying data science to Football Analytics.</p>
+                
+                <div class="info-grid">
+                    <div class="info-box">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="info-item">
+                            <h4>Integrated MSc Data Science</h4>
+                            <p>Amrita Vishwa Vidyapeetham (2022 - 2027)</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Higher Secondary (CBSE)</h4>
+                            <p>Chelammal Vidhyaashram (2022)</p>
+                        </div>
                     </div>
-                    <div class="edu-item">
-                        <h4>Higher Secondary (CBSE)</h4>
-                        <p>Chelammal Vidhyaashram Senior Secondary (2022)</p>
+
+                    <div class="info-box">
+                        <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                        <ul class="cert-list">
+                            <li>Data Analysis with Python (IBM)</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="cert-box">
-                <h3><i class="fas fa-certificate"></i> Certifications</h3>
-                <ul>
-                    <li><strong>Data Analysis with Python</strong> - Authorized by IBM</li>
-                </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python & AI</h3>
+                <p>Pandas, Numpy, Scikit-Learn</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-java"></i>
+                <h3>Development</h3>
+                <p>Java, SQL, HTML/CSS</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Viz</h3>
+                <p>Matplotlib, Seaborn, Tableau</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>Database</h3>
+                <p>MySQL, PostgreSQL</p>
             </div>
         </div>
     </section>
 
     <section id="projects">
-        <h2 class="section-title">My Projects</h2>
+        <h2 class="section-title">My <span>Projects</span></h2>
         <div class="projects-grid">
+            
             <div class="project-card">
                 <div class="project-info">
+                    <span class="badge academic">College Project</span>
                     <h3>Farmer Management System</h3>
-                    <p>A Java-based application using PostgreSQL to help farmers manage crops effectively.</p>
+                    <p>A full-stack Java application connected to a PostgreSQL database to help farmers manage crops and sell resources efficiently.</p>
+                    <div class="tags">
+                        <span>Java</span><span>PostgreSQL</span><span>NetBeans</span>
+                    </div>
                 </div>
             </div>
+
             <div class="project-card">
                 <div class="project-info">
-                    <h3>Football Analytics</h3>
-                    <p>Analyzing team performance and pass networks using Python and Graph Theory.</p>
+                    <span class="badge personal">Personal Project</span>
+                    <h3>RL Football Agent</h3>
+                    <p>Built a Reinforcement Learning model to train AI agents to make optimal tactical decisions in a football simulation environment.</p>
+                    <div class="tags">
+                        <span>Reinforcement Learning</span><span>Python</span><span>AI</span>
+                    </div>
                 </div>
             </div>
+
             <div class="project-card">
                 <div class="project-info">
-                    <h3>Algorithmic Trading Bot</h3>
-                    <p>An automated trading bot combining Deep Learning and n8n workflows.</p>
+                    <span class="badge personal">Personal Project</span>
+                    <h3>Football Pass Network Analysis</h3>
+                    <p>Analyzed team performance by visualizing player connections using Graph Theory and NetworkX to understand passing structures.</p>
+                    <div class="tags">
+                        <span>Graph Theory</span><span>Python</span><span>Data Viz</span>
+                    </div>
                 </div>
             </div>
+
         </div>
     </section>
 
     <section id="contact">
-        <h2 class="section-title">Get In Touch</h2>
-        <div class="contact-box">
-            <p>narayananbadre@gmail.com</p>
-            <p>+91 74188 06611</p>
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>narayananbadre@gmail.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="fas fa-phone"></i>
+                <h3>Phone</h3>
+                <p>+91 74188 06611</p>
+            </div>
         </div>
+        <footer>
+            <p>Designed by Badre Narayanan RG &copy; 2025</p>
+        </footer>
     </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        /* Typing Animation */
+        var typed = new Typed('.multiple-text', {
+            strings: ['Data Scientist', 'Java Developer', 'Football Analyst', 'Python Expert'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+
+        /* Scroll Animation */
+        ScrollReveal({ 
+            reset: true,
+            distance: '80px',
+            duration: 2000,
+            delay: 200
+        });
+        ScrollReveal().reveal('.hero-content, .section-title', { origin: 'top' });
+        ScrollReveal().reveal('.about-text, .project-card, .contact-card', { origin: 'bottom' });
+        ScrollReveal().reveal('.hero h1, .skill-card', { origin: 'left' });
+    </script>
 </body>
 </html>
