@@ -104,17 +104,21 @@ p { color: #cbd5e1; line-height: 1.6; }
 .view-link { display: inline-block; margin-top: 15px; color: var(--main-color); font-weight: 600; text-decoration: none; }
 .view-link:hover { text-decoration: underline; }
 
-/* CONTACT (FIXED) */
+/* CONTACT (UPDATED) */
 .contact-container {
     display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-bottom: 40px;
 }
 .contact-card {
     background: var(--bg-card);
-    padding: 30px 5px;  /* Reduced side padding to 5px */
+    padding: 30px 5px; 
     border-radius: 15px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: 0.4s;
+    
+    /* LINK FIXES */
+    display: block; /* Makes the link behave like a box */
+    text-decoration: none; /* Removes underline */
     
     /* WIDER CARDS */
     flex: 1; min-width: 320px; max-width: 400px;
