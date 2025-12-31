@@ -122,6 +122,7 @@ footer { text-align: center; padding: 20px; background: #0b1120; color: #64748b;
     .hero h1 { font-size: 2.5rem; }
     .social-media { justify-content: center; }
 
+    /* About Section Mobile */
     .about-container { flex-direction: column; text-align: center; }
     .about-img img { margin-bottom: 20px; width: 200px; height: 200px; }
 
